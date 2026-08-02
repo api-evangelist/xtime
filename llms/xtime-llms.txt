@@ -1,0 +1,22 @@
+# Xtime
+
+> Xtime is Cox Automotive's service experience platform for franchised auto dealerships, combining online appointment scheduling, service-lane check-in, multi-point vehicle inspection, customer communications, service marketing, and payment into one fixed-operations workflow. Xtime publishes no public developer portal or self-serve API; its integrations (Dealertrack DMS, VinSolutions, Dealer.com, Kelley Blue Book, vAuto, CDK Global, and other DMS/partner systems) are delivered through the Cox Automotive partner ecosystem.
+
+Xtime is part of Cox Automotive (acquired 2014, sister brands include Dealertrack, VinSolutions, Kelley Blue Book, Autotrader, Manheim, and vAuto). Third-party technical integration with Cox Automotive products runs through the Cox Automotive Integration Platform at https://developer.coxautoinc.com/, which requires partner sign-in; no Xtime API documentation is publicly browsable.
+
+## Docs
+
+- [Website](https://xtime.com/): Product marketing site for the Xtime service experience platform
+- [Solutions](https://xtime.com/solutions/): Scheduling, engagement, inspection, and marketing product lines
+- [Integrations](https://xtime.com/integrations/): Cox Automotive and third-party DMS/partner integrations
+- [Help Center](https://casfx.my.site.com/xtime/s/): Xtime customer support and knowledge base
+- [What's New](https://xtime.com/blog/whats-new/): Product updates and tips
+- [Security](https://xtime.com/security/): Security posture statement
+- [Privacy Policy](https://xtime.com/privacy-policy/): Privacy policy
+- [Responsible Disclosure](https://www.coxautoinc.com/responsible-disclosure/): Cox Automotive vulnerability disclosure policy (covers Xtime)
+
+## Artifacts
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/xtime/refs/heads/main/apis.yml): Machine-readable index of this profile
+- [security.txt](https://raw.githubusercontent.com/api-evangelist/xtime/refs/heads/main/well-known/xtime-security.txt): RFC 9116 security.txt harvested from xtime.com
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/xtime/refs/heads/main/security/xtime-domain-security.yml): TLS/HSTS/SPF/DMARC probe results

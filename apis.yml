@@ -1,8 +1,25 @@
 aid: xtime
 name: Xtime
-description: 'Xtime is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: vertical-software. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Xtime is Cox Automotive''s service experience platform for franchised auto
+  dealerships, combining online appointment scheduling, service-lane check-in, multi-point
+  vehicle inspection, customer communications, service marketing, and payments into one
+  fixed-operations workflow. Part of Cox Automotive since 2014 alongside Dealertrack,
+  VinSolutions, Kelley Blue Book, and vAuto, Xtime integrates with DMS and dealer-website
+  partners through the Cox Automotive ecosystem; it publishes no public self-serve API or
+  developer portal, with partner integration handled via the Cox Automotive Integration
+  Platform.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://xtime.com/wp-content/uploads/sites/2/2024/08/xtime-logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/xtime/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Vertical Software
+- Automotive
+- Dealerships
+- Service Scheduling
+- Vehicle Inspection
+- Customer Engagement
+- Fixed Operations
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,30 @@ maintainers:
 common:
 - type: Website
   url: https://xtime.com/
+- type: Blog
+  url: https://xtime.com/blog/whats-new/
+- type: Support
+  url: https://casfx.my.site.com/xtime/s/
+- type: Login
+  url: https://login.xtime.com/
+- type: PrivacyPolicy
+  url: https://xtime.com/privacy-policy/
+- type: TermsOfService
+  url: https://xtime.com/legal/
+- type: Security
+  url: https://www.coxautoinc.com/responsible-disclosure
+- type: SecurityTxt
+  url: well-known/xtime-security.txt
+- type: WellKnown
+  url: well-known/xtime-well-known.yml
+- type: LLMsTxt
+  url: llms/xtime-llms.txt
+- type: VulnerabilityDisclosure
+  url: security/xtime-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/xtime-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
