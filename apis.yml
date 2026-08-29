@@ -8,6 +8,17 @@ description: 'Xtime is Cox Automotive''s service experience platform for franchi
   partners through the Cox Automotive ecosystem; it publishes no public self-serve API or
   developer portal, with partner integration handled via the Cox Automotive Integration
   Platform.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
